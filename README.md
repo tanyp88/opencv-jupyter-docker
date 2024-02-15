@@ -18,3 +18,7 @@ $docker run -it -d -p 8888:8888 -v ./opencv:/home/opencv --name opencv-jupyter t
 To create a container,and to access the docker cmdline,or accessing http://localhost:8888,using the Inial password "Haha".
 
 $docker exec -it -d -p 8888:8888 -v ./opencv:/home/opencv opencv-jupyter  tanyep/ubuntu20:jupyterlab.2 /bin/bash
+
+#Nvidia gpu options
+
+pls add "--gpus all" to the cmdline above.
