@@ -19,6 +19,6 @@ To create a container,and to access the docker cmdline,or accessing http://local
 
 $docker exec -it -d -p 8888:8888 -v ./opencv:/home/opencv opencv-jupyter  tanyep/ubuntu20:jupyterlab.2 /bin/bash
 
-#Nvidia gpu options
+# Nvidia gpu options
 
 pls add "--gpus all" to the cmdline above.
